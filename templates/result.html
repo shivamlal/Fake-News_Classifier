@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Result</title>
+    <style>
+        h1{
+            color: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>This is your prediction</h1>
+    {% if prediction == 1%}
+    <h2 style="color: green;"> Real News  </h2>
+    {% elif prediction == 0%}
+    <h2 style="color: red;"> Fake News</h2>
+    {% endif %}
+</body>
+</html>

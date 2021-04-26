@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     
+    <title>Home</title>
+    <style>
+        h3{
+            color: blue;
+        }
+    
+    </style>
+
+
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper #00897b teal darken-1">
+          <a href="#" class="brand-logo">ML_App</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          </ul>
+        </div>
+      </nav>
+
+
+    <h3>Fake News Classifier</h3>
+
+    <form action="/predict" method="POST">
+        <input type="text" name="type" placeholder="Type here for check">
+        <button class="btn" type="submit">predict</button>
+    </form>
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+</body>
+</html>
